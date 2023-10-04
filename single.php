@@ -18,7 +18,7 @@ function custom_social_links() {
     echo '</div>';
 }
 
-// Hook the custom_social_sharing_links function after the post title
+// add the custom_social_links function after the website title
 add_action('website_title', 'custom_social_links');
 
 ?>
